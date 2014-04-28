@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>68DF2974-196B-4AC1-A1C4-F965143EA049</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YMTextFieldDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C9113088-7A34-4CB3-B1A0-2B5CB69027C3</key>
+		<string>https://github.com/yocoeus/YMTextField.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YMTextFieldDemo/YMTextFieldDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C9113088-7A34-4CB3-B1A0-2B5CB69027C3</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yocoeus/YMTextField.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C9113088-7A34-4CB3-B1A0-2B5CB69027C3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C9113088-7A34-4CB3-B1A0-2B5CB69027C3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YMTextField</string>
+		</dict>
+	</array>
+</dict>
+</plist>
