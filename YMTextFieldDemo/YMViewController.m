@@ -7,8 +7,12 @@
 //
 
 #import "YMViewController.h"
+#import "YMTextField/YMTextField.h"
 
 @interface YMViewController ()
+
+@property (nonatomic, strong) YMTextField *accountTextField;
+@property (nonatomic, strong) YMTextField *passwordTextField;
 
 @end
 
@@ -18,6 +22,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.accountTextField = [[YMTextField alloc] initWithFrame:CGRectMake(60, 100, 200, 48) title:@"Account"];
+    [self.view addSubview:_accountTextField];
+    
+    self.passwordTextField = [[YMTextField alloc] initWithFrame:CGRectMake(60, 200, 200, 48) title:@"Password"];
+    [self.view addSubview:_passwordTextField];
 }
 
 - (void)didReceiveMemoryWarning

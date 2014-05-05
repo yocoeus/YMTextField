@@ -21,6 +21,8 @@
 		69611F45190E3D900010040D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69611F27190E3D900010040D /* UIKit.framework */; };
 		69611F4D190E3D900010040D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69611F4B190E3D900010040D /* InfoPlist.strings */; };
 		69611F4F190E3D900010040D /* YMTextFieldDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69611F4E190E3D900010040D /* YMTextFieldDemoTests.m */; };
+		69611F5B190E45360010040D /* YMTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 69611F5A190E45360010040D /* YMTextField.m */; };
+		69611F5C190E45360010040D /* YMTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 69611F5A190E45360010040D /* YMTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		69611F4A190E3D900010040D /* YMTextFieldDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YMTextFieldDemoTests-Info.plist"; sourceTree = "<group>"; };
 		69611F4C190E3D900010040D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		69611F4E190E3D900010040D /* YMTextFieldDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMTextFieldDemoTests.m; sourceTree = "<group>"; };
+		69611F59190E45360010040D /* YMTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMTextField.h; sourceTree = "<group>"; };
+		69611F5A190E45360010040D /* YMTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 		69611F29190E3D900010040D /* YMTextFieldDemo */ = {
 			isa = PBXGroup;
 			children = (
+				69611F58190E45190010040D /* YMTextField */,
 				69611F32190E3D900010040D /* YMAppDelegate.h */,
 				69611F33190E3D900010040D /* YMAppDelegate.m */,
 				69611F35190E3D900010040D /* Main.storyboard */,
@@ -150,6 +155,15 @@
 				69611F4B190E3D900010040D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69611F58190E45190010040D /* YMTextField */ = {
+			isa = PBXGroup;
+			children = (
+				69611F59190E45360010040D /* YMTextField.h */,
+				69611F5A190E45360010040D /* YMTextField.m */,
+			);
+			path = YMTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +267,7 @@
 				69611F3A190E3D900010040D /* YMViewController.m in Sources */,
 				69611F34190E3D900010040D /* YMAppDelegate.m in Sources */,
 				69611F30190E3D900010040D /* main.m in Sources */,
+				69611F5B190E45360010040D /* YMTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69611F4F190E3D900010040D /* YMTextFieldDemoTests.m in Sources */,
+				69611F5C190E45360010040D /* YMTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +477,7 @@
 				69611F54190E3D900010040D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69611F55190E3D900010040D /* Build configuration list for PBXNativeTarget "YMTextFieldDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +486,7 @@
 				69611F57190E3D900010040D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

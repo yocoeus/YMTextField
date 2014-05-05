@@ -6,3 +6,9 @@
 #
 # Pods/
 
+
+*.xcbkptlist
+
+*.xcuserstate
+
+YMTextFieldDemo.xcodeproj/project.xcworkspace/xcuserdata/Merck.xcuserdatad/UserInterfaceState.xcuserstate
